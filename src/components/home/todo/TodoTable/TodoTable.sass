@@ -1,0 +1,101 @@
+.todo-table
+    width: 100%
+
+    input[type="text"]
+        margin-bottom: 20px
+        padding: 8px
+        width: 100%
+
+    table
+        width: 100%
+        border-collapse: collapse
+
+    th, td
+        padding: 12px
+        text-align: left
+        border-bottom: 1px solid #ddd
+
+    th
+        cursor: pointer
+        &:hover
+            background-color: #d5d5e7
+
+
+    tr:hover
+        background-color: #e7e7ee
+
+    button
+        margin-right: 8px
+        padding: 6px 12px
+        border: none
+        cursor: pointer
+        color: #fff
+        border-radius: 4px
+
+.done-button
+    width: 65px
+    background-color: #45917a
+    &:hover
+        background-color: #5eb69b
+
+.undone-button
+    width: 65px
+    background-color: #4e327c
+    &:hover
+        background-color: #7652b1
+
+.delete-button
+    background-color: #a72a2a
+    &:hover
+        background-color: #d33737
+
+.add-button
+    background-color: transparent
+    border: 2px solid #3158ac !important
+    color: #3e63b3 !important
+    padding: 10px 20px !important
+    margin-bottom: 10px
+    
+    &:hover
+        color: white !important
+        background-color: #3144ac
+
+.edit-button
+    width: 65px
+    background-color: #369b36
+    &:hover
+        background-color: #3ca742
+
+.scroll-container
+    max-height: 400px
+    overflow-y: auto
+
+.loading
+    text-align: center
+    padding: 10px
+    font-size: 16px
+    color: #007bff
+
+.toggle-scroll-button
+    color: black !important
+    font-weight: bold
+    border-radius: 0 !important
+    color: #345499 !important
+    border-bottom: 2px solid #345499 !important
+    margin-bottom: 10px
+    padding: 10px 20px !important
+    &:hover
+        color: #5783e0 !important
+        border-bottom: 2px solid #5783e0 !important
+
+.toggle-pagination-button
+    color: black !important
+    font-weight: bold
+    border-radius: 0 !important
+    color: #a03881 !important
+    border-bottom: 2px solid #a03881 !important
+    margin-bottom: 10px
+    padding: 10px 20px !important
+    &:hover
+        color: #e057a7 !important
+        border-bottom: 2px solid #e057a7 !important

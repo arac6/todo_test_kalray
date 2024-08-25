@@ -2,6 +2,7 @@ import { useEffect, useContext } from 'react';
 
 import { AppContext } from '../../context/AppContext';
 import TopBar from '../topbar/TopBar';
+import TodoTable from './todo/TodoTable/TodoTable';
 
 import './Home.sass';
 
@@ -63,7 +64,7 @@ const Home: React.FC = () => {
 
             <div className="home">
                 <div className="home-content">
-                    - Content should be here -
+                    <TodoTable />
                 </div>
             </div>
         </div>
